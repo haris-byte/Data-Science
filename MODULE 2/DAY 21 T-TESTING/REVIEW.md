@@ -1,11 +1,11 @@
-# ✅ Day 21 - One Sample t-Test (When Population σ is Unknown)
+# Day 21 - One Sample t-Test (When Population σ is Unknown)
 
-## 📌 Goal
+## Goal
 Determine whether a **new artifact "Crimson Star"** improves player DPS in Wuthering Waves, using a **one-sample t-test**, because population standard deviation (σ) is unknown.
 
 ---
 
-## 📊 Scenario
+## Scenario
 
 A new artifact *Crimson Star* claims to increase the average DPS.  
 To test this, we:
@@ -15,7 +15,7 @@ To test this, we:
 
 ---
 
-## 🧪 Test Applied: One-Sample t-Test (Right-Tailed)
+## Test Applied: One-Sample t-Test (Right-Tailed)
 
 - Used when **population σ is unknown**
 - Small sample size (n = 25)
@@ -23,7 +23,7 @@ To test this, we:
 
 ---
 
-## 🧮 Results
+## Results
 
 | Metric                     | Value       |
 |----------------------------|-------------|
@@ -36,15 +36,15 @@ To test this, we:
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
-- ✅ **p < 0.05** → **Reject Null Hypothesis**
-- ➕ Evidence suggests that the new artifact **does improve DPS**
-- 🔥 **Crimson Star is recommended** based on statistical testing
+-  **p < 0.05** → **Reject Null Hypothesis**
+-  Evidence suggests that the new artifact **does improve DPS**
+-  **Crimson Star is recommended** based on statistical testing
 
 ---
 
-## 📚 Key Concepts Learned
+## Key Concepts Learned
 
 - **One-Sample t-Test** is used when:
   - Population standard deviation is **not known**
@@ -52,8 +52,4 @@ To test this, we:
 - Importance of:
   - **Degrees of Freedom**
   - How sample variance affects test statistics
-
 ---
-
-## 📁 File Location
-`Module_2/Day21_ttest_crimson_star.ipynb`
